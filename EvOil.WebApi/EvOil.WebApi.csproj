@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3"/>
+    <ProjectReference Include="..\EvOil.Business\EvOil.Business.csproj"/>
+    <ProjectReference Include="..\EvOil.Domain\EvOil.Domain.csproj"/>
+    <ProjectReference Include="..\EvOil.Persistence\EvOil.Persistence.csproj"/>
+  </ItemGroup>
+</Project>
