@@ -8,11 +8,3 @@
 Contains UML class diagram and use case diagram
 
 
-## .editorconfig
-Contains code style and analysis rules
-
-## nuget.config
-Contains nuget providers configuration
-
-## omnisharp.json
-Contains Omnisharp configuration
