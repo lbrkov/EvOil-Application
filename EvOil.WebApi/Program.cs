@@ -5,19 +5,11 @@ namespace EvOil.WebApi;
 /// </summary>
 internal static class Program
 {
-    /// <summary>
-    ///
-    /// </summary>
-    /// <param name="args"></param>
     public static void Main(string[] args)
     {
         CreateHostBuilder(args).Build().Run();
     }
 
-    /// <summary>
-    ///
-    /// </summary>
-    /// <param name="args"></param>
     public static IHostBuilder CreateHostBuilder(string[] args) =>
         Host.CreateDefaultBuilder(args)
             .ConfigureAppConfiguration(configureOptions =>

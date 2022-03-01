@@ -32,10 +32,6 @@ namespace EvOil.WebApi
                  _ = dbContextOptionsBuilder.UseSqlServer(_configuration.GetConnectionString("LocalDatabase"));
              });
         }
-        /// <summary>
-        /// Configures Application Middleware.
-        /// </summary>
-        /// <param name="app"></param>
         public static void Configure(IApplicationBuilder app)
 
         {
