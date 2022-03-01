@@ -7,9 +7,6 @@ using System;
 
 namespace EvOil.Ui;
 
-/// <summary>
-/// Interaction logic for MainWindow.xaml
-/// </summary>
 public partial class MainWindow : Window
 {
     public readonly UserService _databaseContextUser;
